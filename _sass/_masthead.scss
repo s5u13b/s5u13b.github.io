@@ -17,6 +17,8 @@
     @include container;
     @include clearfix;
     padding: .5em;
+    padding-left: 4.5em;
+    padding-right: 4.5em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {

@@ -8,7 +8,7 @@
   }
   
   body {
-    margin: 0 27.5em 0 27.5em;
+    margin: 0 0 0 0;
     padding: 0;
     padding-bottom: 0em;
     color: $text-color;
@@ -74,6 +74,7 @@
   ul {
     padding-inline-start: 2em;
     margin-block-start: 0.5em;
+    list-style-type: square;
   }
   
   del a {
@@ -321,4 +322,13 @@
     -webkit-transition: $global-transition;
     transition: $global-transition;
   }
-  
+
+  div#footer {
+    font-size: small;
+    border-top: 1px solid $lighter-gray;
+    padding: .5em;
+    margin-top: 1.0em;
+    color: $text-color;
+    text-align: center;
+    font-family: $sans-serif-narrow;
+  }

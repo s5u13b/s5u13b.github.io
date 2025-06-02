@@ -56,6 +56,7 @@ Prior to that, I received my M.Eng. degree from the [School of Computer Science 
   - Core maintainer of **EasyCkpt**, a high performance asynchronous checkpointing framework for large language model training, accelerating Qwen2.5 and Qwen3 training. [[Doc]](https://help.aliyun.com/zh/pai/user-guide/easyckpt)
 </div>
 
+
 <span class='anchor' id='-intern-experience'></span>
 
 # Intern Experience
@@ -96,7 +97,6 @@ implement packed-relu-pool and compressed-relu-conv operators.
   - Contribute to EasyScale, an elastic training system that achieves consistent model accuracy under resource
  elasticity for both homogeneous and heterogeneous GPUs.
   - EasyScale: Elastic Training with Consistent Accuracy and Improved Utilization on GPUs (*SC’23*, fourth author) [[Paper]](https://arxiv.org/pdf/2208.14228)[[Talk]](https://www.youtube.com/watch?v=a63MWTKcSbM)
-
 </div>
 
 
@@ -112,7 +112,6 @@ implement packed-relu-pool and compressed-relu-conv operators.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">OSDI’24</div><img src='images/llumnix_arch.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 - **Llumnix: Dynamic Scheduling for Large Language Model Serving**
 
   ***Biao Sun**\*, Ziming Huang\*, Hanyu Zhao\*, Wencong Xiao, Xinyi Zhang, Yong Li, Wei Lin* (\*co-first authors)
@@ -120,11 +119,11 @@ implement packed-relu-pool and compressed-relu-conv operators.
   18th USENIX Symposium on Operating Systems Design and Implementation (***OSDI’24***)
 
   [[Paper/Slides/Talk]](https://www.usenix.org/conference/osdi24/presentation/sun-biao)[[Code]](https://github.com/AlibabaPAI/llumnix)
-
 </div>
 </div>
 
 
+<div class='paper-box-text' markdown="1">
 - **Exploiting Input Tensor Dynamics in Activation Checkpointing for Efficient Training on GPU** 
   
   *Jianjin Liao, Mingzhen Li, Hailong Yang, Qingxiao Sun, **Biao Sun**, Jiwei Hao, Tianyu Feng, Fengwei Yu, Shengdong Chen, Ye Tao, Zicheng Zhang, Zhongzhi Luan, Depei Qian*
@@ -132,8 +131,10 @@ implement packed-relu-pool and compressed-relu-conv operators.
    2023 IEEE International Parallel and Distributed Processing Symposium (***IPDPS’23***)
 
   [[PDF]](/pdf/Adapting_Combined_Tiling_to_Stencil_Optimizations_on_Sunway_Processor.pdf)
+</div>
 
 
+<div class='paper-box-text' markdown="1">
 - **EasyScale: Elastic Training with Consistent Accuracy and Improved Utilization on GPUs**
 
   *Mingzhen Li, Wencong Xiao, Hailong Yang, **Biao Sun**, Hanyu Zhao, Shiru Ren, Zhongzhi Luan, Xianyan Jia, Yi Liu, Yong Li, Depei Qian, Wei Lin*
@@ -141,8 +142,10 @@ implement packed-relu-pool and compressed-relu-conv operators.
   International Conference for High Performance Computing, Networking, Storage, and Analysis 2023 (***SC’23***)
 
   [[Paper]](https://arxiv.org/pdf/2208.14228)[[Talk]](https://www.youtube.com/watch?v=a63MWTKcSbM)
+</div>
 
 
+<div class='paper-box-text' markdown="1">
 - **Adapting Combined Tiling to Stencil Optimizations on Sunway Processor**
 
   ***Biao Sun**, Mingzhen Li, Hailong Yang, Jun Xu, Huaitao Zhang, Zhongzhi Luan, Depei Qian*
@@ -150,6 +153,7 @@ implement packed-relu-pool and compressed-relu-conv operators.
   CCF Transactions on High Performance Computing 2023 (***THPC’23***)
 
   [[PDF]](/pdf/Exploiting_Input_Tensor_Dynamics_in_Activation_Checkpointing_for_Efficient_Training_on_GPU.pdf)
+</div>
 
 
 <span class='anchor' id='-awards'></span>
