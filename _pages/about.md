@@ -15,18 +15,22 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<!--
+bundle exec jekyll serve --force_polling --livereload
+-->
+
 <span class='anchor' id='biography'></span>
 
 # Biography
 
-I am a R&D engineer (started from 07/2024) at [Platform of Artificial Intelligence (PAI)](https://www.aliyun.com/product/pai), [Alibaba Cloud](https://cn.aliyun.com/). Currently, I am mainly working on building [Llumnix](https://github.com/AlibabaPAI/llumnix), a dynamic scheduling system for large language model serving (still a long way to go :)). Besides, I am maintaining [EasyCkpt](https://help.aliyun.com/zh/pai/user-guide/easyckpt), a high performance asynchronous checkpointing framework for large language model training, accelerating [Qwen2.5](https://qwenlm.github.io/zh/blog/qwen2.5/) and [Qwen3](https://qwenlm.github.io/blog/qwen3/) training.
+I am a R&D engineer (started from 07/2024) at [Platform of Artificial Intelligence (PAI)](https://www.aliyun.com/product/pai), [Alibaba Cloud](https://cn.aliyun.com/). Currently, I am mainly working on building [Llumnix](https://github.com/AlibabaPAI/llumnix), a dynamic scheduling system for large language model serving (still a long way to go :)). Besides, I am maintaining [EasyCkpt](https://help.aliyun.com/zh/pai/user-guide/easyckpt), a high performance asynchronous checkpointing framework for large language model training, accelerating [Qwen2.5](https://arxiv.org/pdf/2412.15115) and [Qwen3](https://github.com/QwenLM/Qwen3/blob/main/Qwen3_Technical_Report.pdf) training.
 
 Prior to that, I received my M.Eng. degree from the [School of Computer Science and Engineering](https://scse.buaa.edu.cn/) at [Beihang University](https://www.buaa.edu.cn/) in June 2024, advised by [Prof. Hailong Yang](https://thomas-yang.github.io/). And I received my B.Eng. degree from the [School of Software Engineering](https://www2.scut.edu.cn/sse/) at [South China University of Technology](https://www.scut.edu.cn/new/) in June 2021.
 
 
 <span class='anchor' id='-education'></span>
 
-# 🎓 Education
+# Education
 
 <div class='paper-box-text' markdown="1">
 - M.Eng., Computer Science, **Beihang University**, Beijing. (09/2021 - 06/2024)
@@ -40,17 +44,21 @@ Prior to that, I received my M.Eng. degree from the [School of Computer Science 
 </div>
 
  
-<span class='anchor' id='-experience'></span>
+<span class='anchor' id='-work-experience'></span>
 
-# 💻 Experience
+# Work Experience
 
 <div class='paper-box-text' markdown="1">
 - Platform of Artificial Intelligence, **Alibaba Cloud**, Hangzhou. (07/2024 - Now)
 
   *R&D Engineer*
-  - Core contributor of Llumnix, a dynamic scheduling system for large language model serving. [[Code]](https://github.com/AlibabaPAI/llumnix)
-  - Core maintainer of EasyCkpt, a high performance asynchronous checkpointing framework for large language model training, accelerating Qwen2.5 and Qwen3 training. [[Doc]](https://help.aliyun.com/zh/pai/user-guide/easyckpt)
+  - Core contributor of **Llumnix**, a dynamic scheduling system for large language model serving. [[Code]](https://github.com/AlibabaPAI/llumnix)
+  - Core maintainer of **EasyCkpt**, a high performance asynchronous checkpointing framework for large language model training, accelerating Qwen2.5 and Qwen3 training. [[Doc]](https://help.aliyun.com/zh/pai/user-guide/easyckpt)
 </div>
+
+<span class='anchor' id='-intern-experience'></span>
+
+# Intern Experience
 
 <div class='paper-box-text' markdown="1">
 - Platform of Artificial Intelligence, **Alibaba Cloud**, Beijing. (06/2023 - 06/2024)
@@ -64,17 +72,43 @@ Prior to that, I received my M.Eng. degree from the [School of Computer Science 
 - Model-ToolChain Team, **Sensetime**, Beijing. (03/2023 - 05/2023)
 
   *Intern System Researcher*
-  - Contribute to the training and inference optimization of the stable diffusion models on MiaoHua platform.
-  - Reproduce the training activation memory compression optimization proposed in Gist (*ISCA’18*, not open sourced).
+  - Contribute to the training and inference optimization of the stable diffusion models on SenseMirage platform.
+  - Reproduce the training activation memory compression optimization proposed in Gist.
 <!--
 implement packed-relu-pool and compressed-relu-conv operators.
 -->
 </div>
 
+<div class='paper-box-text' markdown="1">
+- PaddlePaddle Team, **Baidu**, Beijing. (06/2022 - 09/2022)
+
+  *Intern R&D Engineer*
+  - Participate in the CCF-GLCC Open Source Programming Summer Camp, optimize the max_pool3d and
+ depthwise_conv2d_grad operators in the Paddle framework.
+  - Achieve performance improvements of 224% and 36% respectively, surpassing PyTorch performance
+ by 14% and 48%, submitt a total of 4 PRs to both Paddle and PyTorch.
+</div>
+
+<div class='paper-box-text' markdown="1">
+- Platform of Artificial Intelligence, **Alibaba Cloud**, Beijing. (07/2021 - 12/2021)
+
+  *Intern System Researcher*
+  - Contribute to EasyScale, an elastic training system that achieves consistent model accuracy under resource
+ elasticity for both homogeneous and heterogeneous GPUs.
+  - EasyScale: Elastic Training with Consistent Accuracy and Improved Utilization on GPUs (*SC’23*, fourth author) [[Paper]](https://arxiv.org/pdf/2208.14228)[[Talk]](https://www.youtube.com/watch?v=a63MWTKcSbM)
+
+</div>
+
 
 <span class='anchor' id='-publications'></span>
 
-# 📝 Publications
+# Publications
+
+
+- **Qwen3 Technical Report**. *Qwen Team* (contributor). arXiv preprint 2025 (arXiv:2505.09388). [[PDF]](https://arxiv.org/pdf/2505.09388)
+
+- **Qwen2.5 Technical Report**. *Qwen Team* (contributor). arXiv preprint 2024 (arXiv:2412.15115). [[PDF]](https://arxiv.org/pdf/2412.15115)
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">OSDI’24</div><img src='images/llumnix_arch.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -89,6 +123,7 @@ implement packed-relu-pool and compressed-relu-conv operators.
 
 </div>
 </div>
+
 
 - **Exploiting Input Tensor Dynamics in Activation Checkpointing for Efficient Training on GPU** 
   
@@ -119,7 +154,8 @@ implement packed-relu-pool and compressed-relu-conv operators.
 
 <span class='anchor' id='-awards'></span>
 
-# 🏅 Awards
+# Awards
+- **Top 10 Parents of Alibaba Cloud & Tongyi(Qwen) Lab**, Alibaba Cloud, 2025
 - **CCF HPCChina Outstanding Paper Award**, Beihang University, 2022
 - **National Encouragement Scholarship**, South China University of Technology, 2019
 - **National Scholarship**, South China University of Technology, 2018
