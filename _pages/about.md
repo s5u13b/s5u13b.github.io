@@ -23,7 +23,7 @@ bundle exec jekyll serve --force_polling --livereload
 
 # Biography
 
-I am a R&D engineer (started from 07/2024) at [Platform of Artificial Intelligence (PAI)](https://www.aliyun.com/product/pai), [Alibaba Cloud](https://cn.aliyun.com/). Currently, I am mainly working on building [Llumnix](https://github.com/AlibabaPAI/llumnix), a dynamic scheduling system for large language model serving (still a long way to go :)). Besides, I am maintaining [EasyCkpt](https://help.aliyun.com/zh/pai/user-guide/easyckpt), a high performance asynchronous checkpointing framework for large language model training, accelerating [Qwen2.5](https://arxiv.org/pdf/2412.15115) and [Qwen3](https://github.com/QwenLM/Qwen3/blob/main/Qwen3_Technical_Report.pdf) training.
+I am a R&D engineer (started from 07/2024) at [Platform of Artificial Intelligence (PAI)](https://www.aliyun.com/product/pai), [Alibaba Cloud](https://cn.aliyun.com/). Currently, I am mainly working on building [Llumnix](https://github.com/AlibabaPAI/llumnix), a dynamic scheduling system for large language model serving (still a long way to go :)). Besides, I am maintaining [EasyCkpt](https://help.aliyun.com/zh/pai/user-guide/easyckpt), a high performance asynchronous checkpointing framework for large language model training, accelerating [Qwen2.5](https://arxiv.org/pdf/2412.15115) and [Qwen3](https://arxiv.org/pdf/2505.09388) training.
 
 Prior to that, I received my M.Eng. degree from the [School of Computer Science and Engineering](https://scse.buaa.edu.cn/) at [Beihang University](https://www.buaa.edu.cn/) in June 2024, advised by [Prof. Hailong Yang](https://thomas-yang.github.io/). And I received my B.Eng. degree from the [School of Software Engineering](https://www2.scut.edu.cn/sse/) at [South China University of Technology](https://www.scut.edu.cn/new/) in June 2021.
 
@@ -43,7 +43,7 @@ Prior to that, I received my M.Eng. degree from the [School of Computer Science 
   - GPA: 3.83/4.0, Rank: 13/267
 </div>
 
- 
+
 <span class='anchor' id='-work-experience'></span>
 
 # Work Experience
@@ -53,7 +53,7 @@ Prior to that, I received my M.Eng. degree from the [School of Computer Science 
 
   *R&D Engineer*
   - Core contributor of **Llumnix**, a dynamic scheduling system for large language model serving. [[Code]](https://github.com/AlibabaPAI/llumnix)
-  - Core maintainer of **EasyCkpt**, a high performance asynchronous checkpointing framework for large language model training, accelerating Qwen2.5 and Qwen3 training. [[Doc]](https://help.aliyun.com/zh/pai/user-guide/easyckpt)
+  - Contributor and core maintainer of **EasyCkpt**, a high performance asynchronous checkpointing framework for large language model training, accelerating Qwen2.5 and Qwen3 training. [[Doc]](https://help.aliyun.com/zh/pai/user-guide/easyckpt)
 </div>
 
 
@@ -63,7 +63,7 @@ Prior to that, I received my M.Eng. degree from the [School of Computer Science 
 
 <div class='paper-box-text' markdown="1">
 - Platform of Artificial Intelligence, **Alibaba Cloud**, Beijing. (06/2023 - 06/2024)
-  
+
   *Intern R&D Engineer*
   - Design and develop the prototype system of Llumnix. Llumnix proposes a dynamic scheduling policy that reschedules requests and their in-memory states with an efficient and scalable live migration mechanism, improving load balancing and isolation, mitigating resource fragmentation, and differentiating request priorities and SLOs.
   - Llumnix: Dynamic Scheduling for Large Language Model Serving (*OSDI’24*, co-first author) [[Paper/Slides/Talk]](https://www.usenix.org/conference/osdi24/presentation/sun-biao)
@@ -74,7 +74,7 @@ Prior to that, I received my M.Eng. degree from the [School of Computer Science 
 
   *Intern System Researcher*
   - Contribute to the training and inference optimization of the stable diffusion models on SenseMirage platform.
-  - Reproduce the training activation memory compression optimization proposed in Gist.
+  - Reproduce the training activation memory compression optimization proposed in Gist (framework presented in *ISCA’18*, not open sourced).
 <!--
 implement packed-relu-pool and compressed-relu-conv operators.
 -->
@@ -87,7 +87,7 @@ implement packed-relu-pool and compressed-relu-conv operators.
   - Participate in the CCF-GLCC Open Source Programming Summer Camp, optimize the max_pool3d and
  depthwise_conv2d_grad operators in the Paddle framework.
   - Achieve performance improvements of 224% and 36% respectively, surpassing PyTorch performance
- by 14% and 48%, submitt a total of 4 PRs to both Paddle and PyTorch.
+ by 14% and 48%, submitt a total of 4 PRs to both Paddle (3) and PyTorch (1).
 </div>
 
 <div class='paper-box-text' markdown="1">
