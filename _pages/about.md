@@ -130,7 +130,7 @@ implement packed-relu-pool and compressed-relu-conv operators.
 
    2023 IEEE International Parallel and Distributed Processing Symposium (***IPDPS’23***)
 
-  [[PDF]](/pdf/Adapting_Combined_Tiling_to_Stencil_Optimizations_on_Sunway_Processor.pdf)
+  [[PDF]](/pdf/Exploiting_Input_Tensor_Dynamics_in_Activation_Checkpointing_for_Efficient_Training_on_GPU.pdf)
 </div>
 
 
@@ -152,7 +152,7 @@ implement packed-relu-pool and compressed-relu-conv operators.
 
   CCF Transactions on High Performance Computing 2023 (***THPC’23***)
 
-  [[PDF]](/pdf/Exploiting_Input_Tensor_Dynamics_in_Activation_Checkpointing_for_Efficient_Training_on_GPU.pdf)
+  [[PDF]](/pdf/Adapting_Combined_Tiling_to_Stencil_Optimizations_on_Sunway_Processor.pdf)
 </div>
 
 
