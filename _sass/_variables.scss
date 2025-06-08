@@ -13,9 +13,11 @@
    $indent-var                 : 0.5em;
    
    /* system typefaces */
-   $serif                      :  "Trebuchet MS",sans-serif; // Georgia, Times, sans-serif;
-   $sans-serif                 : "Trebuchet MS", Helvetica,"Source Han Sans", "Microsoft YaHei", sans-serif;
-   // $sans-serif                 : Georgia, serif, sans-serif;
+   // $serif                      : Georgia, Times, sans-serif; // "Trebuchet MS",sans-serif;
+   $serif                      : "Helvetica","楷体",sans-serif;
+   // $serif                      : "Georgia","Times New Roman","楷体","宋体","SimSun",sans-serif;
+   // $sans-serif                 : "Trebuchet MS", Helvetica,"Source Han Sans", "Microsoft YaHei", sans-serif;
+   $sans-serif                 : Georgia, serif, sans-serif;
    
    // $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
    $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
@@ -62,7 +64,7 @@
    $code-text-color           : #E65555;
    $code-background-color-dark : $light-gray;
    $text-color                 : $dark-gray;
-   $border-color               : $lighter-gray;
+   $border-color               : $light-gray;
    
    $primary-color              : #7a8288;
    $success-color              : #62c462;
