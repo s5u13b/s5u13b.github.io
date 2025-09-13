@@ -23,7 +23,7 @@ bundle exec jekyll serve --force_polling --livereload
 
 # Biography
 
-I am a R&D engineer (started from 07/2024) at [Platform of Artificial Intelligence (PAI)](https://www.aliyun.com/product/pai), [Alibaba Cloud](https://cn.aliyun.com/). Currently, I am mainly working on building Llumnix v1, a cloud-native dynamic scheduling system for large language model serving, to be landing on Alibaba Clould online model service platform [PAI-EAS](https://www.aliyun.com/product/bigdata/learn/eas?spm=a2c4g.11186623.J_XmGx2FZCDAeIy2ZCWL7sW.23.171e1991wxQ2bW&scm=20140722.S_product@@%E4%BA%91%E4%BA%A7%E5%93%81@@2722372._.RL_EAS-LOC_2024NSProductLink-OR_ser-PAR1_213e366217577430627196800e98a7-V_4-RE_productNew-P0_0-P1_0-PAR2_descAbNew). Besides, I am maintaining [EasyCkpt](https://help.aliyun.com/zh/pai/user-guide/easyckpt), a high performance asynchronous checkpointing framework for large language model training, accelerating [Qwen2.5](https://arxiv.org/pdf/2412.15115) and [Qwen3](https://arxiv.org/pdf/2505.09388) training.
+I am a R&D engineer (started from 07/2024) at [Platform of Artificial Intelligence (PAI)](https://www.aliyun.com/product/pai), [Alibaba Cloud](https://cn.aliyun.com/). Currently, I am  working on building Llumnix v1, a cloud-native dynamic scheduling system for LLM serving, deployed on [PAI-EAS](https://www.aliyun.com/product/bigdata/learn/eas?spm=a2c4g.11186623.J_XmGx2FZCDAeIy2ZCWL7sW.23.171e1991wxQ2bW&scm=20140722.S_product@@%E4%BA%91%E4%BA%A7%E5%93%81@@2722372._.RL_EAS-LOC_2024NSProductLink-OR_ser-PAR1_213e366217577430627196800e98a7-V_4-RE_productNew-P0_0-P1_0-PAR2_descAbNew) (Alibaba Cloud's model service platform). Previously, I also contributed to and maintained [EasyCkpt](https://help.aliyun.com/zh/pai/user-guide/easyckpt), a high-performance asynchronous checkpointing framework for LLM pre-training, accelerating the pre-training of [Qwen2.5](https://arxiv.org/pdf/2412.15115) and [Qwen3](https://arxiv.org/pdf/2505.09388).
 
 Prior to that, I received my M.Eng. degree from the [School of Computer Science and Engineering](https://scse.buaa.edu.cn/) at [Beihang University](https://www.buaa.edu.cn/) in June 2024, advised by [Prof. Hailong Yang](https://thomas-yang.github.io/). And I received my B.Eng. degree from the [School of Software Engineering](https://www2.scut.edu.cn/sse/) at [South China University of Technology](https://www.scut.edu.cn/new/) in June 2021.
 
@@ -40,7 +40,6 @@ Prior to that, I received my M.Eng. degree from the [School of Computer Science 
 
 <div class='paper-box-text' markdown="1">
 - B.Eng., Software Engineering, **South China University of Technology**, Guangzhou. (09/2017 - 06/2021)
-  - GPA: 3.83/4.0, Rank: 13/267
 </div>
 
 
@@ -52,9 +51,9 @@ Prior to that, I received my M.Eng. degree from the [School of Computer Science 
 - Platform of Artificial Intelligence, **Alibaba Cloud**, Hangzhou. (07/2024 - Now)
 
   *R&D Engineer*
-  - Core contributor of **Llumnix** v1, a cloud-native dynamic scheduling system for large language model serving, to be landing on Alibaba Clould online model service platform [PAI-EAS](https://www.aliyun.com/product/bigdata/learn/eas?spm=a2c4g.11186623.J_XmGx2FZCDAeIy2ZCWL7sW.23.171e1991wxQ2bW&scm=20140722.S_product@@%E4%BA%91%E4%BA%A7%E5%93%81@@2722372._.RL_EAS-LOC_2024NSProductLink-OR_ser-PAR1_213e366217577430627196800e98a7-V_4-RE_productNew-P0_0-P1_0-PAR2_descAbNew).
-  - Core contributor of **Llumnix** v0, a ray-native dynamic scheduling system for large language model serving. [[Repo]](https://github.com/AlibabaPAI/llumnix)
-  - Contributor and core maintainer of **EasyCkpt**, a high performance asynchronous checkpointing framework for large language model training, accelerating Qwen2.5 and Qwen3 training. [[Doc]](https://help.aliyun.com/zh/pai/user-guide/easyckpt)
+  - Core contributor of **Llumnix v1**, a cloud-native dynamic scheduling system for LLM serving, deployed on [PAI-EAS](https://www.aliyun.com/product/bigdata/learn/eas?spm=a2c4g.11186623.J_XmGx2FZCDAeIy2ZCWL7sW.23.171e1991wxQ2bW&scm=20140722.S_product@@%E4%BA%91%E4%BA%A7%E5%93%81@@2722372._.RL_EAS-LOC_2024NSProductLink-OR_ser-PAR1_213e366217577430627196800e98a7-V_4-RE_productNew-P0_0-P1_0-PAR2_descAbNew) (Alibaba Cloud's model service platform).
+  - Core contributor of **Llumnix v0**, a ray-native dynamic scheduling system for LLM serving. [[Repo]](https://github.com/AlibabaPAI/llumnix)
+  - Contributor and core maintainer of **EasyCkpt**, a high performance asynchronous checkpointing framework for LLM pre-training, accelerating the pre-training of Qwen2.5 and Qwen3. [[Doc]](https://help.aliyun.com/zh/pai/user-guide/easyckpt)
 </div>
 
 
@@ -140,5 +139,4 @@ Prior to that, I received my M.Eng. degree from the [School of Computer Science 
 # Awards
 - **Top 10 Parents of Alibaba Cloud & Tongyi(Qwen) Lab**, Alibaba Cloud, 2025
 - **CCF HPCChina Outstanding Paper Award**, Beihang University, 2022
-- **National Encouragement Scholarship**, South China University of Technology, 2019
 - **National Scholarship**, South China University of Technology, 2018
