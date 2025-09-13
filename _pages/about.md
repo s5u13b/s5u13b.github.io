@@ -75,10 +75,6 @@ Prior to that, I received my M.Eng. degree from the [School of Computer Science 
 </div>
 
 <div class='paper-box-text' markdown="1">
-- PaddlePaddle Team, **Baidu**, Beijing. *Intern R&D Engineer*. (06/2022 - 09/2022)
-</div>
-
-<div class='paper-box-text' markdown="1">
 - Platform of Artificial Intelligence, **Alibaba Cloud**, Beijing. *Intern System Researcher*. (07/2021 - 12/2021)
 </div>
 
