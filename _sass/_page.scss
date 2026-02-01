@@ -49,6 +49,13 @@
 }
 
 .page__content {
+  .anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+  }
+  
   #biography{
     margin-top: -10em;
       &:before { 
@@ -63,7 +70,23 @@
   h1 {
     margin-top: 1em;
     padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, $primary-color, $info-color);
+    border-image-slice: 1;
+    color: $primary-color;
+    font-weight: 600;
+  }
+  
+  h2 {
+    color: $dark-gray;
+    margin-top: 1.5em;
+    font-weight: 600;
+  }
+  
+  h3 {
+    color: $gray;
+    margin-top: 1.2em;
+    font-weight: 600;
   }
 
   p, li, dl {
@@ -84,14 +107,34 @@
   }
 
   a {
-    text-decoration: auto;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
 
     &:hover {
-      text-decoration: underline;
+      color: $info-color;
+      text-decoration: none;
       
-    img {
-      -webkit-filter: drop-shadow( 0rem 0rem 1.5pt rgba(81, 81, 81, 0.551));
+      img {
+        -webkit-filter: drop-shadow(0rem 0rem 1.5pt rgba(24, 144, 255, 0.5));
+        transform: translateY(-2px);
+        transition: all 0.3s ease;
+      }
     }
+    
+    &:not(.btn):after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: linear-gradient(to right, $primary-color, $info-color);
+      transition: width 0.3s ease;
+    }
+    
+    &:not(.btn):hover:after {
+      width: 100%;
     }
   }
 
@@ -418,8 +461,11 @@
 .page_a {
   color: #224b8d;
   text-decoration: none;
+  transition: all 0.3s ease;
   &:hover {
-    text-decoration: underline;}
+    color: $info-color;
+    text-decoration: underline;
+  }
 }
 hr {
   width: 100%;
@@ -433,4 +479,53 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Paper Box Styles */
+.paper-box {
+  background: linear-gradient(135deg, #f8fbff 0%, #ffffff 100%);
+  border: 1px solid $light-gray;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin: 1.5em 0;
+  box-shadow: 0 2px 8px rgba(74, 144, 226, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  gap: 1.5em;
+  align-items: flex-start;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(24, 144, 255, 0.2);
+    transform: translateY(-3px);
+    border-color: $gray;
+  }
+}
+
+.paper-box-image {
+  flex-shrink: 0;
+  
+  img {
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .badge {
+    background: linear-gradient(135deg, $primary-color 0%, $info-color 100%);
+    color: white;
+    padding: 0.3em 0.8em;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.85em;
+    display: inline-block;
+    margin-bottom: 0.5em;
+    box-shadow: 0 2px 6px rgba(0, 112, 204, 0.3);
+  }
+}
+
+.paper-box-text {
+  flex: 1;
+  
+  a {
+    font-weight: 500;
+  }
 }

@@ -15,26 +15,28 @@
   }
 
   a {
-    text-decoration: auto;
+    text-decoration: none;
+    transition: all 0.3s ease;
 
     &:hover {
-      text-decoration: underline;
+      color: $info-color;
 
       img {
-         box-shadow: 0 0 10px rgba(#900, 0.25);
+         box-shadow: 0 4px 16px rgba(24, 144, 255, 0.3);
+         transform: translateY(-2px);
       }
     }
     
-      }
-    
+  }
 }
 
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
-  color: mix(#fff, $gray, 25%);
-  border-bottom: 1px solid $border-color;
+  color: $gray;
+  border-bottom: 2px solid $light-gray;
+  font-weight: 600;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;

@@ -21,9 +21,13 @@
   border: 0 !important;
   border-radius: $border-radius;
   cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 112, 204, 0.2);
 
   &:hover {
-    background-color: mix(white, #000, 20%);
+    background-color: $info-color;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(24, 144, 255, 0.3);
   }
 
   .icon {

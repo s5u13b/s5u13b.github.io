@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Biao Sun"
+title                    : "Biao Sun (孙彪)"
 description              : "@ Alibaba Cloud"
 repository               : "s5u13b/biaosun.github.io"
 google_scholar_stats_use_cdn : false

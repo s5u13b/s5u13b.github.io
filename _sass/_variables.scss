@@ -52,25 +52,25 @@
       Colors
       ========================================================================== */
    
-   $gray                       : #7a8288;
-   $dark-gray                  : mix(#000, $gray, 40%);
-   $darker-gray                : mix(#000, $gray, 60%);
-   $light-gray                 : mix(#fff, $gray, 50%);
-   $lighter-gray               : mix(#fff, $gray, 90%);
+   $gray                       : #4A90E2;
+   $dark-gray                  : #2C5F8D;
+   $darker-gray                : #1A4B7A;
+   $light-gray                 : #A7D1F0;
+   $lighter-gray               : #E3F2FD;
    
    $body-color                 : #fff;
    $background-color           : #fff;
-   $code-background-color      : #EDEDEB;
-   $code-text-color           : #E65555;
+   $code-background-color      : #E3F2FD;
+   $code-text-color           : #0066CC;
    $code-background-color-dark : $light-gray;
-   $text-color                 : $dark-gray;
+   $text-color                 : #2C3E50;
    $border-color               : $light-gray;
    
-   $primary-color              : #7a8288;
-   $success-color              : #62c462;
-   $warning-color              : #f89406;
-   $danger-color               : #ee5f5b;
-   $info-color                 : #224b8d;
+   $primary-color              : #0070CC;
+   $success-color              : #52c41a;
+   $warning-color              : #faad14;
+   $danger-color               : #ff4d4f;
+   $info-color                 : #1890ff;
    // $info-color                 : #52adc8;
    
    /* brands */
@@ -97,9 +97,9 @@
    
    
    /* links */
-   $link-color                 : $info-color;
-   $link-color-hover           : mix(#000, $link-color, 25%);
-   $link-color-visited         : mix(#fff, $link-color, 25%);
+   $link-color                 : #224b8d;
+   $link-color-hover           : $info-color;
+   $link-color-visited         : mix(#fff, #224b8d, 25%);
    $masthead-link-color        : $primary-color;
    $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
    
@@ -153,9 +153,9 @@
       Other
       ========================================================================== */
    
-   $border-radius              : 4px;
-   $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+   $border-radius              : 6px;
+   $box-shadow                 : 0 2px 8px rgba(74, 144, 226, 0.12);
    $navicon-width              : 28px;
    $navicon-height             : 4px;
-   $global-transition          : all 0.2s ease-in-out;
+   $global-transition          : all 0.3s ease-in-out;
    

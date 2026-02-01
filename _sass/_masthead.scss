@@ -6,12 +6,14 @@
   position: sticky;
   top: 0;
   background-color: white;
-  border-bottom: 1px solid $lighter-gray;
+  border-bottom: 2px solid $lighter-gray;
+  box-shadow: 0 2px 8px rgba(74, 144, 226, 0.08);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
+  transition: all 0.3s ease;
 
   &__inner-wrap {
     @include container;
