@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://s5u13b.github.io/sitemap.xml
+
+# Host
+Host: https://s5u13b.github.io
+
+# Crawl-delay for bots
+Crawl-delay: 5
+
+# Disallow private areas (if any)
+Disallow: /google_scholar_crawler/
