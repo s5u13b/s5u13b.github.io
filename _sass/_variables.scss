@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-   $doc-font-size              : 14;
+   $doc-font-size              : 16;
 
    /* paragraph indention */
    $paragraph-indent           : false; // true, false (default)
@@ -14,7 +14,7 @@
    
    /* system typefaces */
    // $serif                      : Georgia, Times, sans-serif; // "Trebuchet MS",sans-serif;
-   $serif                      : "Helvetica","楷体",sans-serif;
+   $serif                      : "Inter", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
    // $serif                      : "Georgia","Times New Roman","楷体","宋体","SimSun",sans-serif;
    // $sans-serif                 : "Trebuchet MS", Helvetica,"Source Han Sans", "Microsoft YaHei", sans-serif;
    $sans-serif                 : Georgia, serif, sans-serif;
@@ -52,26 +52,25 @@
       Colors
       ========================================================================== */
    
-   $gray                       : #4A90E2;
-   $dark-gray                  : #2C5F8D;
-   $darker-gray                : #1A4B7A;
-   $light-gray                 : #A7D1F0;
-   $lighter-gray               : #E3F2FD;
+   $gray                       : #7a8288;
+   $dark-gray                  : mix(#000, $gray, 40%);
+   $darker-gray                : mix(#000, $gray, 60%);
+   $light-gray                 : mix(#fff, $gray, 50%);
+   $lighter-gray               : mix(#fff, $gray, 90%);
    
    $body-color                 : #fff;
-   $background-color           : #fff;
-   $code-background-color      : #E3F2FD;
-   $code-text-color           : #0066CC;
+   $background-color           : #f6f6f6;
+   $code-background-color      : #f5f5f5;
+   $code-text-color           : #333;
    $code-background-color-dark : $light-gray;
-   $text-color                 : #2C3E50;
-   $border-color               : $light-gray;
+   $text-color                 : #1a1a1a;
+   $border-color               : #e0e0e0;
    
-   $primary-color              : #0070CC;
+   $primary-color              : #1a1a1a;
    $success-color              : #52c41a;
    $warning-color              : #faad14;
    $danger-color               : #ff4d4f;
-   $info-color                 : #1890ff;
-   // $info-color                 : #52adc8;
+   $info-color                 : #333;
    
    /* brands */
    $behance-color              : #1769FF;
@@ -97,9 +96,9 @@
    
    
    /* links */
-   $link-color                 : #224b8d;
-   $link-color-hover           : $info-color;
-   $link-color-visited         : mix(#fff, #224b8d, 25%);
+   $link-color                 : #0969da;
+   $link-color-hover           : mix(#000, #0969da, 15%);
+   $link-color-visited         : #0969da;
    $masthead-link-color        : $primary-color;
    $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
    
