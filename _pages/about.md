@@ -115,7 +115,7 @@ I received my M.Eng. degree from the [School of Computer Science and Engineering
 - **Qwen2.5 Technical Report**. *Qwen Team* (contributor). arXiv preprint 2024 (arXiv:2412.15115). [<i class="fas fa-file-pdf"></i> PDF](https://arxiv.org/pdf/2412.15115)
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">OSDI’24</div><img src='images/llumnix_arch.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">OSDI’24</div><img src='images/llumnix_arch.png' alt="sym" width="100%"></div></div> -->
 <div class='paper-box-text' markdown="1">
 - **Llumnix: Dynamic Scheduling for Large Language Model Serving**
 
@@ -125,7 +125,7 @@ I received my M.Eng. degree from the [School of Computer Science and Engineering
 
   [<i class="fas fa-file-alt"></i> Paper/Slides/Talk](https://www.usenix.org/conference/osdi24/presentation/sun-biao) [<i class="fab fa-github"></i> Code](https://github.com/AlibabaPAI/llumnix)
 </div>
-</div>
+<!-- </div> -->
 
 
 <div class='paper-box-text' markdown="1">
