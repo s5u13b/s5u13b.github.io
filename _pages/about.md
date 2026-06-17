@@ -129,17 +129,6 @@ I received my M.Eng. degree from the [School of Computer Science and Engineering
 
 
 <div class='paper-box-text' markdown="1">
-- **Exploiting Input Tensor Dynamics in Activation Checkpointing for Efficient Training on GPU** 
-  
-  *Jianjin Liao, Mingzhen Li, Hailong Yang, Qingxiao Sun, **Biao Sun**, Jiwei Hao, Tianyu Feng, Fengwei Yu, Shengdong Chen, Ye Tao, Zicheng Zhang, Zhongzhi Luan, Depei Qian*
-
-   2023 IEEE International Parallel and Distributed Processing Symposium (***IPDPS’23***)
-
-  [<i class="fas fa-file-pdf"></i> PDF](/pdf/Exploiting_Input_Tensor_Dynamics_in_Activation_Checkpointing_for_Efficient_Training_on_GPU.pdf)
-</div>
-
-
-<div class='paper-box-text' markdown="1">
 - **EasyScale: Elastic Training with Consistent Accuracy and Improved Utilization on GPUs**
 
   *Mingzhen Li, Wencong Xiao, Hailong Yang, **Biao Sun**, Hanyu Zhao, Shiru Ren, Zhongzhi Luan, Xianyan Jia, Yi Liu, Yong Li, Depei Qian, Wei Lin*
@@ -151,9 +140,20 @@ I received my M.Eng. degree from the [School of Computer Science and Engineering
 
 
 <div class='paper-box-text' markdown="1">
+- **Exploiting Input Tensor Dynamics in Activation Checkpointing for Efficient Training on GPU** 
+  
+  *Jianjin Liao, Mingzhen Li, Hailong Yang, Qingxiao Sun, **Biao Sun**, Jiwei Hao, Tianyu Feng, Fengwei Yu, Shengdong Chen, Ye Tao, Zicheng Zhang, Zhongzhi Luan, Depei Qian*
+
+   2023 IEEE International Parallel and Distributed Processing Symposium (***IPDPS’23***)
+
+  [<i class="fas fa-file-pdf"></i> PDF](/pdf/Exploiting_Input_Tensor_Dynamics_in_Activation_Checkpointing_for_Efficient_Training_on_GPU.pdf)
+</div>
+
+
+<div class='paper-box-text' markdown="1">
 - **Adapting Combined Tiling to Stencil Optimizations on Sunway Processor**
 
-  ***Biao Sun**, Mingzhen Li, Hailong Yang, Jun Xu, Huaitao Zhang, Zhongzhi Luan, Depei Qian*
+  ***Biao Sun**, Mingzhen Li, Hailong Yang, Jun Xu, Zhongzhi Luan, Depei Qian*
 
   CCF Transactions on High Performance Computing 2023 (***THPC’23***)
 
